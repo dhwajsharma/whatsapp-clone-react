@@ -21,7 +21,7 @@ function SidebarChat({ addNewChat, id, name }) {
                     )))
                 )
         }
-    }, [])
+    }, [id]);
 
     useEffect(() => {
         setSeed(Math.floor(Math.random() * 5000));
